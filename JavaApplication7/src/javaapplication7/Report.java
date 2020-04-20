@@ -13,7 +13,7 @@ public class Report {
     }
     
     public String generateReport(){
-        String message = "Report for " + human.firstName + " " + human.lastName + "\n Age = " + human.Age + "\n Height = " + human.height + "\n Weight = " + human.weight + "\n BMI = " + BMI;
+        String message = "Report for " + human.firstName + " " + human.lastName + "\n Age = " + human.age + "\n Height = " + human.height + "\n Weight = " + human.weight + "\n BMI = " + BMI;
         return message;
         /*
         System.out.println("Generating report for" + human.firstName + " " + human.lastname);
